@@ -1,0 +1,1 @@
+console.log('RAMKAM INFORMATION SYSTEMS loaded');
