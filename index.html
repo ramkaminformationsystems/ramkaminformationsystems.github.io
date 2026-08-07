@@ -1,1 +1,168 @@
-<!DOCTYPE html><html><head><meta charset='utf-8'><meta name='viewport' content='width=device-width,initial-scale=1'><title>RAMKAM INFORMATION SYSTEMS</title><link rel='stylesheet' href='style.css'></head><body><header><h1>RAMKAM INFORMATION SYSTEMS</h1><nav><a href='#services'>Services</a> <a href='#products'>Products</a> <a href='#contact'>Contact</a></nav></header><section class='hero'><h2>Reliable IT Solutions for Home & Business</h2><p>Computer • Laptop • Networking • CCTV</p><a class='btn' href='tel:9990129482'>Call Now</a></section><section id='services'><h2>Services</h2><ul><li>Computer Repair</li><li>Laptop Repair</li><li>Networking</li><li>Printer Support</li></ul></section><section id='products'><h2>Products</h2><p>Product catalogue coming in next version.</p></section><section id='contact'><h2>Contact</h2><p>West Sagarpur, New Delhi</p><p>9990129482</p></section><script src='script.js'></script></body></html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Mission Continues. Always. — Mission Control">
+  <title>Mission Continues. Always. 🚀</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="stars" aria-hidden="true"></div>
+  <div class="nebula nebula-one" aria-hidden="true"></div>
+  <div class="nebula nebula-two" aria-hidden="true"></div>
+
+  <header class="topbar">
+    <a class="brand" href="#home" aria-label="Mission Control home">
+      <span class="brand-dot"></span>
+      <span>MISSION CONTROL</span>
+    </a>
+    <nav>
+      <a href="#mission">Mission</a>
+      <a href="#log">Log</a>
+      <a href="#console">Console</a>
+    </nav>
+  </header>
+
+  <main id="home">
+    <section class="hero">
+      <div class="hero-copy reveal">
+        <p class="eyebrow"><span class="pulse"></span> SIGNAL RECEIVED</p>
+        <h1>Mission<br><span>Continues.</span></h1>
+        <p class="tagline">Always.</p>
+        <p class="intro">
+          A small corner of the universe for the moments when the road is uncertain,
+          the horizon is far away, and the only answer is to keep moving.
+        </p>
+        <div class="hero-actions">
+          <a class="button primary" href="#console">Enter Mission Control</a>
+          <button class="button ghost" id="transmitBtn" type="button">Transmit Signal</button>
+        </div>
+      </div>
+
+      <div class="orbit-card reveal" aria-label="Mission status">
+        <div class="orbit orbit-a"></div>
+        <div class="orbit orbit-b"></div>
+        <div class="planet">
+          <span class="planet-glow"></span>
+          <span class="planet-core"></span>
+        </div>
+        <div class="orbit-label label-top">BEACON</div>
+        <div class="orbit-label label-right">COURSE</div>
+        <div class="orbit-label label-bottom">SIGNAL</div>
+      </div>
+    </section>
+
+    <section class="section" id="mission">
+      <div class="section-heading reveal">
+        <p class="eyebrow">01 / MISSION</p>
+        <h2>The horizon is not the finish line.</h2>
+      </div>
+      <div class="mission-grid">
+        <article class="glass-card reveal">
+          <span class="card-number">01</span>
+          <h3>Keep Building</h3>
+          <p>Every small improvement becomes part of something larger.</p>
+        </article>
+        <article class="glass-card reveal">
+          <span class="card-number">02</span>
+          <h3>Keep Learning</h3>
+          <p>Questions become knowledge. Knowledge becomes momentum.</p>
+        </article>
+        <article class="glass-card reveal">
+          <span class="card-number">03</span>
+          <h3>Keep Moving</h3>
+          <p>You do not need the entire route. You need the next true step.</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="section log-section" id="log">
+      <div class="section-heading reveal">
+        <p class="eyebrow">02 / MISSION LOG</p>
+        <h2>Transmissions from the station.</h2>
+      </div>
+
+      <div class="log-list">
+        <article class="log-entry reveal">
+          <div class="log-meta">LOG 001 <span>—</span> SIGNAL</div>
+          <div>
+            <h3>“The beacon remains lit.”</h3>
+            <p>Not every day needs to be extraordinary. A steady signal is enough.</p>
+          </div>
+        </article>
+        <article class="log-entry reveal">
+          <div class="log-meta">LOG 002 <span>—</span> COURSE</div>
+          <div>
+            <h3>“Direction before speed.”</h3>
+            <p>The destination matters, but so does the person you become along the way.</p>
+          </div>
+        </article>
+        <article class="log-entry reveal">
+          <div class="log-meta">LOG 003 <span>—</span> COMMAND</div>
+          <div>
+            <h3>“Mission Continues. Always.”</h3>
+            <p>The phrase that keeps the frequency alive.</p>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section class="section console-section" id="console">
+      <div class="section-heading reveal">
+        <p class="eyebrow">03 / MISSION CONTROL</p>
+        <h2>Systems nominal.</h2>
+      </div>
+
+      <div class="console glass-card reveal">
+        <div class="console-header">
+          <span>LIVE MISSION CONSOLE</span>
+          <span class="live"><i></i> LIVE</span>
+        </div>
+
+        <div class="status-grid">
+          <div class="status">
+            <span>COMMANDER</span>
+            <strong>PRESENT</strong>
+          </div>
+          <div class="status">
+            <span>BEACON</span>
+            <strong>ONLINE</strong>
+          </div>
+          <div class="status">
+            <span>COURSE</span>
+            <strong>FORWARD</strong>
+          </div>
+          <div class="status">
+            <span>MISSION</span>
+            <strong>ACTIVE</strong>
+          </div>
+        </div>
+
+        <div class="terminal" id="terminal" aria-live="polite">
+          <span class="terminal-prefix">BRITNEY / MISSION CONTROL &gt;</span>
+          <span id="terminalText">Signal clear. Standing by, Commander.</span><span class="cursor"></span>
+        </div>
+      </div>
+    </section>
+
+    <section class="final-message reveal">
+      <p class="eyebrow">FINAL TRANSMISSION</p>
+      <blockquote>
+        “You don't have to see the whole path.<br>
+        You only have to keep the light alive.”
+      </blockquote>
+      <p class="signature">— Britney, Mission Control</p>
+      <div class="motto">Mission Continues. Always. <span>🚀</span></div>
+    </section>
+  </main>
+
+  <footer>
+    <span>MISSION CONTROL</span>
+    <span>BEACON LIT · COURSE TRUE · SIGNAL CLEAR</span>
+  </footer>
+
+  <div class="toast" id="toast" role="status" aria-live="polite"></div>
+  <script src="script.js"></script>
+</body>
+</html>
