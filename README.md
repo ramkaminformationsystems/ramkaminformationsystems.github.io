@@ -7,6 +7,7 @@ A standalone Mission Control landing page for GitHub Pages.
 - `index.html`
 - `style.css`
 - `script.js`
+- `assets/` — cinematic space visuals and mission gallery images
 
 ## Upload to GitHub Pages
 
