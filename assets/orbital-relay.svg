@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 700">
+<defs><radialGradient id="b"><stop stop-color="#1b3761"/><stop offset="1" stop-color="#02050c"/></radialGradient></defs>
+<rect width="1200" height="700" fill="url(#b)"/>
+<g fill="#fff" opacity=".65"><circle cx="100" cy="100" r="2"/><circle cx="220" cy="280" r="1"/><circle cx="980" cy="120" r="2"/><circle cx="1070" cy="520" r="1.5"/><circle cx="720" cy="80" r="1.5"/></g>
+<ellipse cx="610" cy="390" rx="420" ry="150" fill="none" stroke="#6fdfff" stroke-opacity=".22" stroke-width="3"/>
+<g transform="translate(460 260)">
+<rect x="0" y="35" width="280" height="120" rx="18" fill="#a8bbd1"/>
+<rect x="72" y="55" width="136" height="80" rx="8" fill="#202f43"/>
+<rect x="-230" y="50" width="190" height="90" fill="#2e73b7" stroke="#8ce7ff" stroke-width="4"/>
+<rect x="320" y="50" width="190" height="90" fill="#2e73b7" stroke="#8ce7ff" stroke-width="4"/>
+<path d="M140 35V-65" stroke="#a8bbd1" stroke-width="10"/><circle cx="140" cy="-82" r="18" fill="#71e5ff"/>
+<path d="M140 155V235" stroke="#a8bbd1" stroke-width="10"/><circle cx="140" cy="252" r="10" fill="#70f0bb"/>
+</g>
+<text x="70" y="620" fill="#79ddff" font-family="Arial" font-size="20" letter-spacing="5">ORBITAL RELAY / SIGNAL LOCKED</text>
+</svg>

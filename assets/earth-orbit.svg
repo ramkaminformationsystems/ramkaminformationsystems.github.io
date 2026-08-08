@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900">
+<defs>
+ <radialGradient id="space"><stop stop-color="#162b55"/><stop offset=".55" stop-color="#070d1d"/><stop offset="1" stop-color="#02040b"/></radialGradient>
+ <radialGradient id="earth"><stop stop-color="#91e7ff"/><stop offset=".28" stop-color="#3973db"/><stop offset=".7" stop-color="#102c70"/><stop offset="1" stop-color="#020615"/></radialGradient>
+ <filter id="glow"><feGaussianBlur stdDeviation="22"/></filter>
+ <filter id="soft"><feGaussianBlur stdDeviation="5"/></filter>
+</defs>
+<rect width="1600" height="900" fill="url(#space)"/>
+<g fill="#fff" opacity=".7">
+<circle cx="120" cy="120" r="2"/><circle cx="300" cy="260" r="1.5"/><circle cx="480" cy="100" r="2"/><circle cx="780" cy="170" r="1.4"/><circle cx="1080" cy="110" r="2"/><circle cx="1380" cy="220" r="1.5"/><circle cx="1480" cy="620" r="2"/><circle cx="1030" cy="700" r="1.4"/><circle cx="210" cy="650" r="2"/><circle cx="620" cy="780" r="1.6"/>
+</g>
+<ellipse cx="1110" cy="520" rx="350" ry="120" fill="none" stroke="#77dfff" stroke-opacity=".2" stroke-width="2" transform="rotate(-17 1110 520)"/>
+<ellipse cx="1110" cy="520" rx="410" ry="165" fill="none" stroke="#a78bfa" stroke-opacity=".12" stroke-width="2" transform="rotate(22 1110 520)"/>
+<circle cx="1120" cy="515" r="205" fill="#4cbcff" opacity=".16" filter="url(#glow)"/>
+<circle cx="1120" cy="515" r="180" fill="url(#earth)"/>
+<path d="M1010 430c55-50 105-35 135-2 25 28 73 24 104 66-45 8-62 41-104 32-35-8-58 31-98 8-28-16-58-54-37-104z" fill="#55d89a" opacity=".52"/>
+<path d="M1020 570c54-23 79 9 121-4 45-14 68 15 107 25-42 54-105 78-164 61-37-11-64-41-64-82z" fill="#4fd08e" opacity=".45"/>
+<path d="M1015 395c-38 40-57 87-58 132" stroke="#fff" stroke-opacity=".28" stroke-width="10" fill="none" filter="url(#soft)"/>
+<g transform="translate(1250 250) rotate(-12)">
+ <path d="M0 20 L210 20 L245 75 L-35 75 Z" fill="#d8e6f7" opacity=".9"/>
+ <path d="M45 0 L190 0 L205 20 L30 20 Z" fill="#7d91aa"/>
+ <rect x="76" y="-35" width="70" height="38" rx="5" fill="#6bcdf4"/>
+ <path d="M-70 15 L0 30 L-60 50 Z" fill="#9bb3d0"/><path d="M210 30 L280 15 L270 55 Z" fill="#9bb3d0"/>
+ <circle cx="35" cy="48" r="8" fill="#71f0bb"/><circle cx="185" cy="48" r="8" fill="#71f0bb"/>
+</g>
+<text x="95" y="105" fill="#79ddff" font-family="Arial" font-size="22" letter-spacing="6">MISSION CONTROL / DEEP SPACE</text>
+<text x="95" y="140" fill="#fff" opacity=".7" font-family="Arial" font-size="13" letter-spacing="3">BEACON 07 · ORBITAL TELEMETRY</text>
+</svg>
