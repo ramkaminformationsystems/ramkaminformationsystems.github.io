@@ -1,0 +1,68 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>RAMKAM INFORMATION SYSTEMS</title>
+<meta name="description" content="RAMKAM INFORMATION SYSTEMS — Reliable IT Solutions for Home & Business.">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="stars"></div><div class="glow glow-a"></div><div class="glow glow-b"></div>
+<header class="nav">
+  <a class="logo" href="#top"><span class="logo-dot"></span><span><b>RAMKAM</b><small>INFORMATION SYSTEMS</small></span></a>
+  <nav><a href="#services">Services</a><a href="#products">Products</a><a href="#contact">Contact</a></nav>
+</header>
+
+<main id="top">
+<section class="hero">
+  <div class="hero-copy">
+    <p class="eyebrow">RAMKAM INFORMATION SYSTEMS / MISSION CONTROL</p>
+    <h1>Technology that<br><span>keeps you moving.</span></h1>
+    <p class="hero-lead">Computer • Laptop • Networking • CCTV</p>
+    <p class="hero-text">Reliable IT solutions for home and business — practical support for the systems you depend on every day.</p>
+    <div class="buttons"><a class="btn" href="tel:9990129482">Call Now</a><a class="btn ghost" href="#products">View Products</a></div>
+    <div class="signals"><span>● SYSTEMS</span><span>● NETWORKS</span><span>● SECURITY</span></div>
+  </div>
+  <div class="orbital">
+    <div class="core"></div><div class="orbit o1"></div><div class="orbit o2"></div>
+    <div class="telemetry"><b>RAMKAM</b><small>IT SUPPORT</small><i>● ONLINE</i></div>
+  </div>
+</section>
+
+<section id="services" class="section">
+  <p class="eyebrow">01 / SERVICES</p>
+  <h2>Built around the work<br>your technology does.</h2>
+  <div class="service-grid">
+    <article><span>01</span><h3>Computer Repair</h3><p>Computer repair and support for home and business systems.</p></article>
+    <article><span>02</span><h3>Laptop Repair</h3><p>Reliable laptop troubleshooting and repair support.</p></article>
+    <article><span>03</span><h3>Networking</h3><p>Networking support for connected systems and everyday operations.</p></article>
+    <article><span>04</span><h3>Printer Support</h3><p>Printer support to keep your work setup productive.</p></article>
+  </div>
+</section>
+
+<section id="products" class="section">
+  <p class="eyebrow">02 / PRODUCTS</p>
+  <div class="section-head"><div><h2>Product catalogue.</h2><p>Actual product images supplied in your uploaded <b>assets.rar</b>.</p></div><strong class="count">48 IMAGES LOADED</strong></div>
+  <div id="product-grid" class="product-grid"></div>
+</section>
+
+<section id="contact" class="section contact">
+  <p class="eyebrow">03 / CONTACT</p>
+  <h2>Let’s get your systems<br>back on course.</h2>
+  <div class="contact-row"><div><small>LOCATION</small><b>West Sagarpur, New Delhi</b></div><div><small>PHONE</small><b>9990129482</b></div><a class="btn" href="tel:9990129482">Call RAMKAM</a></div>
+</section>
+</main>
+<footer><b>RAMKAM INFORMATION SYSTEMS</b><span>MISSION CONTINUES. ALWAYS. 🚀</span></footer>
+<script>
+const products = ['product-01.jpg', 'product-02.jpg', 'product-03.jpg', 'product-04.jpg', 'product-05.jpg', 'product-06.jpg', 'product-07.jpg', 'product-08.jpg', 'product-09.jpg', 'product-10.jpg', 'product-11.jpg', 'product-12.jpg', 'product-13.jpg', 'product-14.jpg', 'product-15.jpg', 'product-16.jpg', 'product-17.jpg', 'product-18.jpg', 'product-19.jpg', 'product-20.jpg', 'product-21.jpg', 'product-22.jpg', 'product-23.jpg', 'product-24.jpg', 'product-25.jpg', 'product-26.jpg', 'product-27.jpg', 'product-28.jpg', 'product-29.jpg', 'product-30.jpg', 'product-31.jpg', 'product-32.jpg', 'product-33.jpg', 'product-34.jpg', 'product-35.jpg', 'product-36.jpg', 'product-37.jpg', 'product-38.jpg', 'product-39.jpg', 'product-40.jpg', 'product-41.jpg', 'product-42.jpg', 'product-43.jpg', 'product-44.jpg', 'product-45.jpg', 'product-46.jpg', 'product-47.jpg', 'product-48.jpg'];
+const grid = document.getElementById('product-grid');
+products.forEach((name, i) => {
+  const card=document.createElement('article');
+  card.className='product-card';
+  card.innerHTML='<div class="image-wrap"><img src="assets/products/'+name+'" alt="RAMKAM product '+(i+1)+'" loading="lazy"></div><div class="caption"><span>PRODUCT '+String(i+1).padStart(2,'0')+'</span><b>RAMKAM INFORMATION SYSTEMS</b></div>';
+  grid.appendChild(card);
+});
+</script>
+</body>
+</html>
