@@ -1,1 +1,0 @@
-Upload all files to the repository root. Put your 65 real product photos in assets/products/ named product-01.jpg through product-65.jpg. Replace the empty placeholder files; no HTML/CSS/JS editing is needed.
