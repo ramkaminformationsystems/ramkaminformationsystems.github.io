@@ -1,11 +1,11 @@
-RAMKAM INFORMATION SYSTEMS — ACTUAL PRODUCT BUILD
+RAMKAM INFORMATION SYSTEMS — FINAL WEBSITE
 
-This package uses the REAL product images from the uploaded assets.rar.
-48 actual image files were found and included.
+Upload the CONTENTS of this folder to the GitHub Pages repository root.
 
-IMPORTANT:
-- No fake/empty product placeholders are included.
-- The original logo was NOT present inside assets.rar, so the header uses a clean RAMKAM text brand rather than pretending a fake logo is the original.
-- The remaining 17 images were not invented because they were not present in the uploaded archive.
-
-Upload every file/folder in this package to the GitHub repository root.
+This build includes:
+- The actual RAMKAM logo supplied separately.
+- The real product images from the supplied product archive.
+- Home / Banner, About, Services, Gallery, Shop and Contact sections.
+- Product images use object-fit: contain, so they are not cropped.
+- Click any product image to open a full-size view.
+- No fake product-image placeholders.
